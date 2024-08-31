@@ -1,0 +1,90 @@
+/* @media screen and (max-width:425px) {
+
+    .span1{
+        font-size: 35px;
+    }
+    .span2{
+        font-size: small;
+    }
+    .span3{
+       font-size: smaller; 
+    }
+
+} */
+@media (max-width: 1200px) {
+    .cards-of-reason {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10vh;
+        row-gap: 1vw;
+    }
+    .reasons{
+        height: 150px;
+    }
+}
+
+@media (max-width: 950px) {
+    .cards-of-reason {
+        grid-template-columns: 1fr; 
+    }
+    .reasons{
+        height: 100px;
+    }
+    .card img{
+        width:120px;
+    }
+    .hero-btn{
+        flex-direction: column;
+    }
+    .main input{
+        width: 60vw;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .reasons{
+        height: auto;
+    }
+    h4{
+        font-size: 20px;
+    }
+}
+@media (max-width:830px){
+    .span1{
+        font-size: 25px;
+    }
+    .span2{
+        font-size: small;
+        font-weight: 400;
+    }
+    .span3{
+       font-size: smaller; 
+       font-weight: 400;
+    }
+   
+}
+@media (max-width: 350px) {
+    h4{
+        font-size: 18px;
+        font-style: bold;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media (min-width:2000px)
+{
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: larger;
+    }
+}
